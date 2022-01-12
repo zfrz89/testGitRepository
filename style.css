@@ -1,0 +1,91 @@
+.headEl {
+    height: 150px;
+    width:  200px;
+    border-radius: 50% 50% 0 0 ;
+    background-color: rgb(28, 138, 228);
+    position: relative;
+}
+.headEl:hover{
+    border-radius: 60% 60% 0 0 ;
+    width: 310px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.eyeL{
+    height: 15px;
+    width:  15px;
+    border-radius: 50% ;
+    background-color: rgb(244, 246, 248);
+    position: absolute;
+    top:  50%;
+    left: 24%;
+}
+.eyeR{
+    height: 15px;
+    width:  15px;
+    border-radius: 50% ;
+    background-color: rgb(244, 246, 248);
+    position: absolute;
+    top:  50%;
+    left: 70%;
+}
+.bodyEl {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    height: 300px;
+    width:  200px;
+    border-radius: 0 0 20% 20% ;
+    background-color: rgb(28, 138, 228);
+    position: absolute;
+    top: 18%;
+    /* margin-top: 5px; */
+}
+.handL{
+    margin-right: 8px;
+    height: 180px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgb(28, 138, 228);
+     position: absolute;
+    /* top: 18%; */
+    right: 100%;
+}
+.handR{
+    margin-left: 8px;
+    height: 180px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgb(28, 138, 228);
+    position: absolute;
+    /* top: 18%; */
+    left: 100%; 
+}
+.feet{
+    position: absolute;
+    top: 45%; 
+    display: flex;
+}
+.footL{
+    margin-right: 8px;
+    height: 180px;
+    width: 50px;
+    border-radius: 0 0 100px 100px;
+    background-color: rgb(28, 138, 228);
+    
+    /* left: 20%; */
+}
+.footR{
+    margin-left: 8px;
+    height: 180px;
+    width: 50px;
+    border-radius: 0 0 100px 100px;
+    background-color: rgb(28, 138, 228);
+    
+}
+.footL:hover {
+    transform: rotate(20deg);
+}
